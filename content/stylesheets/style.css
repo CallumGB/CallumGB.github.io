@@ -7,7 +7,7 @@
     font-family: 'Ubuntu', sans-serif;
 }
 .parallax-window {
-    min-height: 400px;
+    min-height: 500px;
     background: transparent;
 }
 
@@ -292,8 +292,9 @@ iframe {
     top: 50%;
     width: 100%;
     color: white;
-    font-weight: 700;
+    font-weight: 600;
     font-family: 'Ubuntu', sans-serif;
+	line-height: 1em;
     text-shadow: 0 1px 1px #000, 0 -1px 1px #000, 1px 0 1px #000, -1px 0 1px #000;
     text-decoration: none;
     z-index: 50;
