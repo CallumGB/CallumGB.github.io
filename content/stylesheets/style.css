@@ -6,11 +6,11 @@
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
 }
-/* Rows */
-
-.row0 {
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
 }
-/* Top Bar */
+
 
 #topbar {
     padding: 5px 30px 0px 0px;
@@ -86,11 +86,7 @@ nav ol {
 }
 #mainav li a {
     display: block;
-    padding: 20px 10px 20px 10px;
-}
-.active {
-    font-weight: bold;
-}
+	padding: 20px 10px 20px 10px}
 #mainav li a {
     color: inherit;
 }
@@ -126,8 +122,8 @@ nav ul li a {
     font-family: 'Ubuntu', sans-serif;
     color: rgba(0, 0, 0, 0.77);
     display: block;
-    font-size: 1em;
-    font-weight: 400;
+    font-size: 1.3em;
+    font-weight: 500;
     letter-spacing: 1px;
     padding: 0 10px;
     text-decoration: none;
@@ -361,14 +357,11 @@ body {
     color: #222;
     -webkit-font-smoothing: antialiased;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
     height: auto !important;
     height: 100%;
     line-height: 1.6em;
     min-height: 100%;
 }
-/*FOOTER #73C73E*/
 
 .FooterWrapper {
     color: #FFF;
@@ -398,7 +391,7 @@ body {
 }
 a.FooterLink:link,
 a.FooterLink:visited {
-    color: white;
+    color: #fff;
     background-color: rgba(0, 0, 0, 0.5);
     list-style-type: none;
     text-decoration: none;
@@ -412,13 +405,13 @@ a.FooterLink:visited {
     -moz-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     -ms-transition: all .2s ease-out;
-    transition: all .2s ease-out;	
+    transition: all .2s ease-out;
+	border: 2px solid #fff;
 }
 a.FooterLink:hover,
 a.FooterLink:active {
-    color: #3498db;
     text-decoration: none;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.7);
     box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.24);
     font-family: 'Ubuntu', sans-serif;
     -webkit-transition: all .2s ease-out;
@@ -426,6 +419,7 @@ a.FooterLink:active {
     -o-transition: all .2s ease-out;
     -ms-transition: all .2s ease-out;
     transition: all .2s ease-out;
+	border: 2px solid #3498db;
 }
 
 
