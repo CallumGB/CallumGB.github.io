@@ -4211,7 +4211,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     overflow-y: visible;
   }
   .navbar-fixed-top .navbar-collapse,
-  .navbar-static-top .navbar-collapse,
+  .navbar-fixed-top .navbar-collapse,
   .navbar-fixed-bottom .navbar-collapse {
     padding-right: 0;
     padding-left: 0;
@@ -4243,12 +4243,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     margin-left: 0;
   }
 }
-.navbar-static-top {
+.navbar-fixed-top {
   z-index: 1000;
   border-width: 0 0 1px;
 }
 @media (min-width: 768px) {
-  .navbar-static-top {
+  .navbar-fixed-top {
     border-radius: 0;
   }
 }
