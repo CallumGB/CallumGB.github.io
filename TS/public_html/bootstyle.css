@@ -245,16 +245,6 @@
 		background-color: #fee799;
 	}
 	
-	.navbar-brand {
-		padding: 0px;
-	}
-	
-	.navbar-brand>img {
-		height: 100%;
-		padding: 15px;
-		width: auto;
-	}
-	
 	.dropdown .dropdown-menu {
 		-webkit-transition: all 0.3s;
 		-moz-transition: all 0.3s;
@@ -270,4 +260,23 @@
 	.dropdown.open .dropdown-menu {
 		max-height: 300px;
 		opacity: 1;
+	}
+	
+	@media (max-width: 768px) {
+		.navbar-brand > img {
+			padding-top: 15px;
+			padding-right: 15px;
+			padding-bottom: 15px;
+			padding-left: 0px;
+		}
+	}
+	
+	.navbar-brand {
+		padding: 0px;
+	}
+	
+	.navbar-brand>img {
+		height: 100%;
+		padding: 12px;
+		width: auto;
 	}
