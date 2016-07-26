@@ -295,3 +295,15 @@
 			body {
 				padding-top: 50px;
 			}
+			
+			.EventTitle {
+				margin-top: 5px;
+				margin-bottom: 15px;
+			}
+			
+			.EventHr {
+				margin-top: 10px;
+				margin-bottom: 10px;
+				border: 0;
+				border-top: 1px solid #ccc;
+			}
