@@ -307,3 +307,11 @@
 				border: 0;
 				border-top: 1px solid #ccc;
 			}
+			
+			@media (max-width: 768px) {
+				.nav > li {
+					position: relative;
+					display: block;
+					border-bottom: rgba(115, 116, 99, 0.2) 1px solid;
+				}
+			}
