@@ -68,10 +68,6 @@
 				text-align: center;
 			}
 			
-			.marketing h2 {
-				font-weight: normal;
-			}
-			
 			.marketing .col-lg-4 p {
 				margin-right: 10px;
 				margin-left: 10px;
@@ -355,4 +351,23 @@
 			.breadcrumb>li+li:before {
 				color: rgba(204, 204, 204, 1);
 				content: "\276F\00a0";
+			}
+			/* Fonts */
+			
+			p {
+				font-family: 'Open Sans', sans-serif;
+			}
+			
+			h1,
+			h2,
+			h3,
+			h4,
+			h5,
+			h6 {
+				font-family: 'Open Sans', sans-serif;
+				font-weight: 600;
+			}
+			
+			nav {
+				font-family: 'Open Sans', sans-serif;
 			}
