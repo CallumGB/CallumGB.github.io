@@ -1,0 +1,27 @@
+body {
+	padding-top: 50px;
+}
+
+.business-header {
+	height: 100px;
+	background-image: url('../bg.png');
+	background-color: #AAD4FF;
+}
+
+.tagline {
+	color: #fff;
+	font-size: 50px;
+	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.img-center {
+	margin: 0 auto;
+}
+
+footer {
+	margin: 50px 0;
+}
+
+header {
+	margin-bottom: 15px;
+}
