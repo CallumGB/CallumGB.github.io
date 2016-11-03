@@ -1,5 +1,10 @@
 body {
 	padding-top: 50px;
+	background-color: #e2e1e0;
+}
+
+p {
+	color: #333
 }
 
 .business-header {
@@ -14,6 +19,18 @@ body {
 	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
+.white_shadow {
+	background: #FFF;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+	margin: 10px;
+	border-radius: 2px;
+	display: inline-block;
+	margin: 1rem;
+	padding: 10px;
+	position: relative;
+	width: 100%;
+}
+
 .img-center {
 	margin: 0 auto;
 }
@@ -24,4 +41,9 @@ footer {
 
 header {
 	margin-bottom: 15px;
+}
+
+.navbar {
+	background-image: url('../bg2.png');
+	border-bottom: 0px;
 }
