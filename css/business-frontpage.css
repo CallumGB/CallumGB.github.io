@@ -1,6 +1,8 @@
 body {
 	padding-top: 50px;
-	background-color: #e2e1e0;
+	/* background-color: #e2e1e0;*/
+	background-color: yellow;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 p {
