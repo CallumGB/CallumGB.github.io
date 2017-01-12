@@ -1,12 +1,14 @@
 body {
 	padding-top: 50px;
 	/* background-color: #e2e1e0;*/
-	background-color: yellow;
-	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	background-color: rgb(27, 27, 36);
+	font-family: 'Roboto Slab', serif;
 }
 
 p {
-	color: #333
+	color: rgb(138, 141, 183);
+	font-weight: 700;
+	font-size: 2em;
 }
 
 .business-header {
@@ -22,10 +24,10 @@ p {
 }
 
 .white_shadow {
-	background: #FFF;
+	background: rgb(40, 41, 54);
 	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 	margin: 10px;
-	border-radius: 2px;
+	border-radius: 5px;
 	display: inline-block;
 	margin: 1rem;
 	padding: 10px;
