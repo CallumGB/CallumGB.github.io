@@ -1,0 +1,52 @@
+*{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 2rem;
+}
+
+.jumbotron {
+	background-color: #3d7c4b;
+	color: white;
+}
+
+.coinsfront{
+  border-width: 3px;
+  border-color: rgb(143, 171, 197);
+  border-style: dashed;
+  border-radius: 3px;
+  margin: 10px;
+  padding: 15px;
+}
+
+.coincard{
+box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+padding: 20px;}
+
+.coincardcolor{
+background: #3d7c4b;
+background: -moz-linear-gradient(-45deg, #3d7c4b 0%, #2e6837 100%);
+background: -webkit-linear-gradient(-45deg, #3d7c4b 0%,#2e6837 100%);
+background: linear-gradient(135deg, #3d7c4b 0%,#2e6837 100%);
+color: #fff;
+padding-bottom: 0px;
+padding-top: 0px;
+line-height: 15px;}
+
+.coindate{font-size: 50px;
+text-align: center;
+vertical-align: middle;
+line-height: 90px;}
+.coindateback{background-color: rgba(0, 0, 0, 0.3);}
+.cointitle{padding-top: 15px;}
+
+.coinborder{border-top: 1px solid #eceeef;
+border-left:1px solid #eceeef;
+border-right:1px solid #eceeef;}
+
+.cointop{background-color:#0275d8 ;
+border-color:#0275d8;
+color: #fff;}
