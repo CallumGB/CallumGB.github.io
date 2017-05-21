@@ -41,22 +41,13 @@
       </div>
     </nav>
 
-    <div class="widewrapper main">
-          <img src="images\ss_191403578a0fab7577148cfc1ac34e4e2b1bde79.jpg" class="img-responsive" alt="For Honor Background">
+    <div class="bg"></div>
+    <div class="jumbotron affix">
+      <h1 class="gametoptext">The Witcher 3: Wild Hunt</h1>
+      <p class="lead gametoptext">Released last year</p>
     </div>
 
-
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron front-jumbo">
-      <div class="container">
-	  <div class="row">
-	   <div class="col-md-12">
-		</div>
-		</div>
-      </div>
-    </div>
-
-    <div class="container">
+    <div class="container whiteback">
       <div class="row">
         <div class="col-md-8">
         <h2 class="minblue">MINIMUM</h2>
@@ -113,7 +104,7 @@
 
         </div>
         <div class="col-md-4">
-          <h2 class="minblue">Can you run it?</h2>
+          <h2 class="minblue">CAN YOU RUN IT?</h2>
        </div>
       </div>
 
@@ -128,6 +119,15 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript">
+
+            $(document).ready(function() {
+
+                var jumboHeight = $('.jumbotron').outerHeight();function parallax(){    var scrolled = $(window).scrollTop();    $('.bg').css('height', (jumboHeight-scrolled) + 'px');}$(window).scroll(function(e){    parallax();});
+
+            });
+
+            </script>
 <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
