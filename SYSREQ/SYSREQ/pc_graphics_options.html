@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>PC graphics options explained - SYSREQ</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="jumbotron.css" rel="stylesheet">
+
+  </head>
+
+  <body class="game1 dbackground">
+
+    <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top navbar-blue">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">SYSREQ</a>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+                <a class="nav-link navlink" href="about.html">Search Games</a>
+          </li>
+          <li class="nav-item">
+                <a class="nav-link navlink" href="about.html">Your Hardware</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link navlink" href="about.html">Most Demanding Games</a>
+      </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <div class="jumbotron affix">
+    </div>
+
+    <div class="container-fluid"><div class="row">
+    <img src="images\graphics.jpg" class="img-responsive img-100" alt="Intel Logo">
+    </div></div>
+
+    <div class="container">
+
+<br>
+<div class="row systop">
+  <div class="col-md-6">
+    <h2 class="h2lg">Texture Quality</h2>
+    <p class="margintext">This setting controls the resolution of the textures applied to game elements. Higher texture quality will make objects look better close up, but will require more VRAM. Texture quality typically does not impact framerate, as long as you have enough VRAM. </p>
+
+ </div>
+        <div class="col-md-6" style="padding: 0px;">
+          <h3 class="h3bgtitle">Low Textures vs High Textures</h3>
+          <ul class="comparison vertical">
+      			<li><img src="images/texh.jpg"></li>
+      			<li><img src="images/texl.jpg"></li>
+      		</ul>
+        </div>
+</div>
+<br>
+<div class="row">
+  <div class="col-md-6">
+    <h2 class="h2lg">Anti-aliasing</h2>
+    <p class="margintext">Anti-aliasing smooths out jagged graphics. The need for Anti-aliasing decreases with resolution.</p> <p>Here are some of the many kinds of Anti-aliasing you could see in a game:</p>
+<ul>SSAA: Super sampling anti-aliasing.  Uses a lot of processing power.</ul>
+<ul>MSAA: Multisample anti-aliasing. Usually an option in modern games. Performance Intensive. </ul>
+<ul>FXAA: Fast approximate anti-aliasing. Smallest performance cost. Can make the image look more blurry</ul>
+<ul>TXAA: Temporal anti-aliasing. Uses a bit more processing power than FXAA.</ul>
+ </div>
+        <div class="col-md-6" style="padding: 0px;">
+          <h3 class="h3bgtitle">No AA vs MSAA</h3>
+          <ul class="comparison vertical">
+      			<li><img src="images/aah.jpg"></li>
+      			<li><img src="images/aal.jpg"></li>
+      		</ul>
+        </div>
+</div>
+<br>
+<div class="row systop">
+  <div class="col-md-6">
+    <h2 class="h2lg">Ambient Occlusion</h2>
+    <p class="margintext">Ambient occlusion is a technique used for improving the quality of lighting in virtual environments. </p>
+    <ul>SSAO: Screen space ambient occlusion</ul>
+    <ul>HBAO: Horizon-Based Ambient Occlusion</ul>
+    <ul>HDAO: High Definition Ambient Occlusion</ul>
+ </div>
+       <div class="col-md-6" style="padding: 0px; ">
+         <h3 class="h3bgtitle">No AO vs SSAO</h3>
+         <ul class="comparison vertical">
+           <li><img src="images/aor.jpg"></li>
+           <li><img src="images/aol.jpg"></li>
+         </ul>
+       </div>
+</div>
+<br>
+<div class="row">
+  <div class="col-md-6">
+    <h2 class="h2lg">Anisotropic Filtering</h2>
+    <p class="margintext">Also Known as Texture Filtering</p>
+    <p class="margintext">Reduces the bluring of textures that are viewed at an angle. Usually you have a choice of the amount of filtering you want to apply: None, 2x, 4x, 8x, and 16x. This option has a minimal performance impact in games.</ul>
+ </div>
+       <div class="col-md-6" style="padding: 0px; ">
+         <h3 class="h3bgtitle">No AF vs 16x AF</h3>
+         <ul class="comparison vertical">
+           <li><img src="images/TFH.jpg"></li>
+           <li><img src="images/TFL.jpg"></li>
+         </ul>
+       </div>
+</div>
+<br>
+<div class="row systop">
+  <div class="col-md-6">
+    <h2 class="h2lg">Shadow Quality</h2>
+    <p class="margintext">Usually, increasing the shadows quality increases the shadow map size. This will make shadows look less blurry and more accurate. If you are having FPS problems, shadows should be one of the first things you should try turning down.</ul>
+    <ul>Dynamic Shadows: Shadows that are calculated in real-time based on object movement and the light source. Performance Intensive.</ul>
+    <ul>Contact Hardening Shadows: Creates realistic soft shadows.  Performance Intensive. </ul>
+ </div>
+       <div class="col-md-6" style="padding: 0px; ">
+         <h3 class="h3bgtitle">Low Shadows vs High Shadows</h3>
+         <ul class="comparison vertical">
+           <li><img src="images/ShadowH.jpg"></li>
+           <li><img src="images/ShadowL.jpg"></li>
+         </ul>
+       </div>
+</div>
+<br>
+<div class="row">
+  <div class="col-md-6">
+    <h2 class="h2lg">Dynamic Refelections</h2>
+    <p class="margintext">Dynamic Reflections allow you to see objects mirrored in pools of water and other shiny surfaces. Can be performance intensive. </ul>
+ </div>
+       <div class="col-md-6" style="padding: 0px; ">
+         <h3 class="h3bgtitle">No Refelections vs Refelections</h3>
+         <ul class="comparison vertical">
+           <li><img src="images/ReflectH.jpg"></li>
+           <li><img src="images/ReflectL.jpg"></li>
+         </ul>
+       </div>
+</div>
+<br>
+
+      <footer>
+        <p>&copy; 2017</p>
+      </footer>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="plugin/jquery-image-comparison.min.css">
+<script src="plugin/jquery-image-comparison.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
+</html>

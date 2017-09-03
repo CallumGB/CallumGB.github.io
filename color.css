@@ -1,0 +1,73 @@
+div#hPanel, div#sbPanel {
+  	border:2px solid #fff;
+  	overflow:hidden;
+  position:relative;
+  float:left;
+	  margin:6px;
+ border-radius:4px;
+}
+div#hPanel div#hColorBar {
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left:-2px;
+	width:4px;
+	background-color:#fff;
+}
+div#hPanel div#hCenter {
+	position:absolute;
+	top:50%;
+	left:50%;
+	border:3px solid #fff;
+	background-color:#b3b3b3;
+  border-radius:50%;
+}
+div#hPanel ul {
+	position:relative;
+  list-style:none;
+}
+div#hPanel ul li {
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:0;
+	height:0;
+	font-size:0;
+}
+div#sbPanel {
+  background-image: -webkit-linear-gradient(bottom, #000, rgba(0,0,0,0)), -webkit-linear-gradient(left, #fff, rgba(255,255,255,0));
+  background-image: -moz-linear-gradient(bottom, #000, rgba(0,0,0,0)), -moz-linear-gradient(left, #fff, rgba(255,255,255,0));
+  background-image: -o-linear-gradient(bottom, #000, rgba(0,0,0,0)), -o-linear-gradient(left, #fff, rgba(255,255,255,0));
+  background-image: -ms-linear-gradient(bottom, #000, rgba(0,0,0,0)), -ms-linear-gradient(left, #fff, rgba(255,255,255,0));
+  background-image: linear-gradient(to top, #000, rgba(0,0,0,0)), linear-gradient(to right, #fff, rgba(255,255,255,0));
+}
+div#sbPanelRing {
+	position:absolute;
+	margin-left:-6px;
+	margin-top:-6px;
+	background-color:#c0c0c0;
+	width:12px;
+	height:12px;
+  border-radius:50%;
+}
+div#sbPanelRing p{
+  background-color:#fff;
+	  width:6px;
+	  height:6px;
+  margin: 3px;
+  border-radius:50%;
+}
+
+div#sbPanelCover, div#hPanelCover {
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:#000;
+	opacity:0;
+							cursor : crosshair;
+}
+
+p#colorInfo{
+  margin:6px;
+  line-height:24px;
+}
