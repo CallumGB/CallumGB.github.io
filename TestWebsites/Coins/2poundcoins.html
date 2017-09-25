@@ -10,8 +10,9 @@
     <title>£2 Coins - UK Coins Collector</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,600" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,600" rel="stylesheet">
     <link href="jumbotron.css" rel="stylesheet">
+    <link href="lb2\css\lightbox.min.css" rel="stylesheet">
   </head>
 
   <body>
@@ -27,16 +28,11 @@
           <li class="nav-item active">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Coins</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">50p Coins</a>
-              <a class="dropdown-item" href="#">£2 Coins</a>
-              <a class="dropdown-item" href="#">£5 Coins</a>
-            </div>
-          </li>
+          <li class="nav-item">
+                <a class="nav-link" href="about.html">Coins</a>
+              </li>
 		  <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="about.html">About</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -58,60 +54,52 @@
     </div>
 
     <div class="container">
-	
-	  <div class="row"> 
+
+	  <div class="row">
 	  <div class="col-md-6">
 	  <button type="button" class="btn btn-secondary btn-lg btn-block">Commemorative £2 coins</button>
 	  </div>
 	  <div class="col-md-6">
 	  <button type="button" class="btn btn-secondary btn-lg btn-block">Coin Specifications</button>
 	  </div>
-	  <div class="col-md-6">
-	  <button type="button" class="btn btn-secondary btn-lg btn-block">Coin History</button>
 	  </div>
-	  <div class="col-md-6">
-	  <button type="button" class="btn btn-secondary btn-lg btn-block">Value Chart</button>
-	  </div>
-	  </div>
-	  
+
 	  <br>
-	  
-	  <div class="row coincard coincardcolor"> 
+
+	  <div class="row coincard coincardcolor">
 	  <div class="col-md-12 cointitle">
 	  <h2>History</h2>
 	  <br>
 	  </div>
 	  </div>
-	  
+
 	  <div class="row coincard">
 	  <div class="col-md-12">
 	  <h4>Years of minting 1997–present</h4>
 	  <p>The coin was introduced on 15 June 1998 after a review of the United Kingdom's coinage decided that a general-circulation £2 coin was needed.</p>
 	  <p>The new bi-metallic design replaced a series of commemorative, uni-metallic coins which were issued between 1986 and 1996 to celebrate special occasions. Although legal tender, these coins have never been common in everyday circulation.</p>
-	  <p>As of March 2014 there were an estimated 417 million £2 coins in circulation with an estimated face value of £831.756 million.</p>
 	  </div>
 	  </div>
-	  
-	  
+
+
 	<hr>
-	  
-	  
-	  
-	 <div class="row coincard coincardcolor"> 
-	<div class="col-md-2 coindateback"> <p class="coindate" >2007</p> </div>
+
+
+
+	 <div class="row coincard coincardcolor">
 	  <div class="col-md-10 cointitle">
 	  <h2>Abolition of the Slave Trade £2</h2>
 	  <p>Marking the bicentenary of the Abolition of the Slave Trade in the British Empire</p>
 	  <br>
 	  </div>
 	  </div>
-	  
+
 	  <div class="row coincard">
 	  <div class="col-md-3">
-		<img src="images/2_pound_2007_Slavery.jpg" class="img-fluid" alt="Smiley face">
-      </div>
+    <a href="images/2_pound_2007_Slavery.jpg" data-lightbox="image-1"><img src="images/2_pound_2007_Slavery.jpg" class="img-fluid" alt="Smiley face"></a>
+    </div>
 	  <div class="col-md-9">
-	  
+
 	<table class="table">
     <tbody class="coinborder">
     <tr><th>Issued</th><th>2007</th></tr>
@@ -126,24 +114,24 @@
 	  <button type="button" class="btn btn-secondary btn-sm">Search on Ebay</button>
 	  </div>
 	  </div>
-	  
+
 	  <hr>
-	  
-	 <div class="row coincard coincardcolor"> 
-	<div class="col-md-2 coindateback"> <p class="coindate" >2007</p> </div>
+
+	 <div class="row coincard coincardcolor">
 	  <div class="col-md-10 cointitle">
 	  <h2>Act of Union £2</h2>
 	  <p>Marking the Tercentenary of the Act of Union between England and Scotland</p>
 	  <br>
 	  </div>
 	  </div>
-	  
+
 	  <div class="row coincard">
-	  <div class="col-md-3">
-		<img src="images/2_pound_2007_Union.jpg" class="img-fluid" alt="Smiley face">
+      <div class="col-md-3">
+      <a href="images/2_pound_2007_Union.jpg" data-lightbox="image-1"><img src="images/2_pound_2007_Union.jpg" class="img-fluid" alt="Smiley face"></a>
       </div>
+
 	  <div class="col-md-9">
-	  
+
 	<table class="table">
     <tbody class="coinborder">
     <tr><th>Issued</th><th>2007</th></tr>
@@ -158,7 +146,7 @@
 	  <button type="button" class="btn btn-secondary btn-sm">Search on Ebay</button>
 	  </div>
 	  </div>
-	  
+
 	  <hr>
       <footer>
         <p>&copy; UK Coins Collector 2017</p>
@@ -172,5 +160,6 @@
 <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="lb2\js\lightbox-plus-jquery.min.js"></script>
   </body>
 </html>
