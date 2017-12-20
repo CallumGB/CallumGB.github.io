@@ -187,9 +187,11 @@ header.masthead {
           margin-right: auto;
           margin-left: auto; }
           header.masthead .header-content .header-content-inner h1 {
-            font-size: 50px; }
+            font-size: 50px;
+          text-shadow: 2px 2px 4px #1D1E5A; }
           header.masthead .header-content .header-content-inner p {
             font-size: 18px;
+            text-shadow: 2px 2px 4px #1D1E5A;
             max-width: 80%;
             margin-right: auto;
             margin-left: auto;
