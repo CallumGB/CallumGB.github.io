@@ -42,7 +42,8 @@ body {padding-top: 2rem;}
   background-image: -webkit-linear-gradient( 165deg, rgb(5,84,173) 5%, rgb(32,112,168) 94%);
   background-image: -ms-linear-gradient( 165deg, rgb(5,84,173) 5%, rgb(32,112,168) 94%);
 	color: white;
-	margin-bottom: 0px;
+	margin-bottom: 10px;
+	padding: 2rem 2rem 2rem 2rem;
 }
 
 .navbar-blue{
@@ -76,9 +77,7 @@ body {padding-top: 2rem;}
 
 
 .h2bgtitle{
-	background-image: -moz-linear-gradient( 165deg, rgb(5,84,173) 5%, rgb(32,112,168) 94%);
-	background-image: -webkit-linear-gradient( 165deg, rgb(5,84,173) 5%, rgb(32,112,168) 94%);
-	background-image: -ms-linear-gradient( 165deg, rgb(5,84,173) 5%, rgb(32,112,168) 94%);
+	background-color: rgb(32,112,168);
   color: white;
   padding-left: 5px;
 	padding-top: 10px;
