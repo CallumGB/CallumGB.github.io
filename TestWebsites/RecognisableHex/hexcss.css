@@ -1,8 +1,11 @@
 *{font-family: 'Open Sans', sans-serif;}
 .jumbotron {padding: 2rem 2rem;}
 
-.coloursquare{width: 100px; height: 100px; color: white; text-align: center;}
-.ctext{padding-left: 1px;}
+.coloursquare{width: 100px; height: 100px;
+              color: white; text-align: center;
+	border-radius: 5px;}
+
+.ctext{padding-left: 1px; color: gray;}
 
 .tubeBakerloo{background-color: #B36305;}
 .tubeCentral{background-color: #E32017;}
@@ -20,7 +23,28 @@
 .tubeWaterlooandCity{background-color: #95CDBA;}
 .tubeElizabeth{background-color: #753BBD;}
 
+.nycsubACE{background-color: #0039A6;}
+.nycsubBDFM{background-color: #FF6319;}
+.nycsubG{background-color: #6CBE45;}
+.nycsubJZ{background-color: #996633;}
+.nycsubL{background-color: #A7A9AC;}
+.nycsubNQR{background-color: #FCCC0A;}
+.nycsubS{background-color: #808183;}
+.nycsub123{background-color: #EE352E;}
+.nycsub456{background-color:#00933C ;}
+.nycsub7{background-color:#B933AD ;}
+
+
 .googlered{background-color: #db3236;}
 .googleblue{background-color: #4885ed;}
 .googleyellow{background-color: #f4c20d;}
 .googlegreen{background-color: #3cba54;}
+
+.Microred{background-color: #F65314;}
+.Microblue{background-color: #00A1F1;}
+.Microyellow{background-color: #FFBB00;}
+.Microgreen{background-color: #7CBB00;}
+
+.SpotifyGreen{background-color: #1ED760;}
+
+.Discordblue{background-color: #7289DA;}
