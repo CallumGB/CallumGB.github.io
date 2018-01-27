@@ -1,10 +1,12 @@
 *{font-family: 'Open Sans', sans-serif;}
 .jumbotron {padding: 2rem 2rem;}
 
-.coloursquare{width: 100px; height: 100px;
-              color: white; text-align: center;
-	border-radius: 5px;}
+.coloursquare{width: 100px; height: 100px; color: rgba(255, 255, 255, 0.5); text-align: center; border-radius: 5px; transition: all 0.1s ease;}
+.coloursquare:before{color: white; text-align: center; border-radius: 5px;}
+.coloursquare:hover{color: rgba(255, 255, 255, 1); box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);}
 
+.bannerimg{max-width:100px; height: 30px; margin-right: 10px;border-radius: 5px; margin-top: -5px;}
 .ctext{padding-left: 1px; color: gray;}
 
 .tubeBakerloo{background-color: #B36305;}
