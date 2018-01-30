@@ -1,42 +1,24 @@
 *{font-family: 'Roboto', sans-serif;}
-.adborder{border: 2px solid #FFF;}
 body{margin-top: 30px;background-color: #2D4571; background-image: url("images/chalkboard.jpg");}
-.wfbg{background-image: url("images/chalkboard2.jpg");/*background-size: cover*/ }
+.wfbg{background-image: url("images/chalkboard2.jpg");}
 
 .logo{
   background-color: rgba(0, 0, 0, 0.20);
   border-radius: 15px 15px 15px 15px;
   -moz-border-radius: 15px 15px 15px 15px;
   -webkit-border-radius: 15px 15px 15px 15px;
-  transition: background 0.1s linear;
+  transition: 0.1s linear;
   height: 100px;
   padding: 5px;}
 
 .logo:hover {background-color: #4D648D;}
 .jumbotron {background-color: #2D4571;color: white;background-image: url("images/chalkboard.jpg")}
 
-.frontborder{
-border-radius: 0px 0px 0px 0px;
--moz-border-radius: 0px 0px 0px 0px;
--webkit-border-radius: 0px 0px 0px 0px;
-border: 2px solid #051838;
-height: 250px;
-text-shadow: 1px 1px 7px rgba(0, 0, 0, 1);
-font-weight: bold;
-background: -moz-linear-gradient(top, rgba(30,87,153,0) 0%, rgba(125,185,232,1) 100%);
-background: -webkit-linear-gradient(top, rgba(30,87,153,0) 0%,rgba(125,185,232,1) 100%);
-background: linear-gradient(to bottom, rgba(30,87,153,0) 0%,rgba(125,185,232,1) 100%););
-padding-top: 10px;
-transition: border 0.1s linear;}
-
 .frontborder:hover{
 border: 2px solid #4D648D;
 }
 
-.frontborder1{background-image: url("images/warframe.jpg"); background-size: cover}
-.frontborder2{background-image: url("images/youtube.jpg"); background-size: cover}
-.frontborder3{background-image: url("images/sysreqtemp.jpg"); background-size: cover}
-.frontborder4{background-image: url("images/soon.jpg"); background-size: cover}
+.frontpic{width:150px; margin-right: 10px;}
 
 .downtext{background-color: #051838;margin-bottom: 10px; padding-left: 10px; font-size: 30px;
   border-radius: 0px 0px 5px 5px;color: #FFF;}
