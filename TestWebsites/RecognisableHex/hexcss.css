@@ -1,6 +1,11 @@
 *{font-family: 'Open Sans', sans-serif;}
 .jumbotron {padding: 2rem 2rem;}
 
+a:link{color:#666;text-decoration:none;}
+a:visited{color:#000;text-decoration:none;}
+a:hover{color:#000;text-decoration:none;}
+a:active{color:#000;text-decoration:none;}
+
 .coloursquare{width: 100px; height: 100px; color: rgba(255, 255, 255, 0.5); text-align: center; border-radius: 5px; transition: all 0.1s ease;}
 .coloursquare:before{color: white; text-align: center; border-radius: 5px;}
 .coloursquare:hover{color: rgba(255, 255, 255, 1); box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -36,7 +41,6 @@
 .nycsub456{background-color:#00933C ;}
 .nycsub7{background-color:#B933AD ;}
 
-
 .longisBabylonBranch{background-color:#00985F;}
 .longisCityTerminalZone{background-color:#4D5357;}
 .longisFarRockawayBranch{background-color:#6E3219;}
@@ -71,6 +75,21 @@
 .paris16{background-color:#427b7b;}
 .paris17{background-color:#ec7cae;}
 .paris18{background-color:#95bf32;}
+
+.moscow1{background-color:#FF3818;}
+.moscow2{background-color:#4ABD61;}
+.moscow3{background-color:#0F7BC3;}
+.moscow4{background-color:#38CCF5;}
+.moscow5{background-color:#A35139;}
+.moscow6{background-color:#FF7D31;}
+.moscow7{background-color:#8043A2;}
+.moscow8a{background-color:#FFC846;}
+.moscow9{background-color:#9EA7A7;}
+.moscow10{background-color:#B1D451;}
+.moscow11A{background-color:#75D5D0;}
+.moscow12{background-color:#A8C7E7;}
+.moscow13{background-color:#2C87C5;}
+.moscow14{background-color:#DE0914;}
 
 .googlered{background-color: #db3236;}
 .googleblue{background-color: #4885ed;}
