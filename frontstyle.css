@@ -1,22 +1,34 @@
-*{font-family: 'Roboto', sans-serif;}
-body{margin-top: 30px;background-color: #2D4571; background-image: url("images/chalkboard.jpg");}
-.wfbg{background-image: url("images/chalkboard2.jpg");}
+*{font-family: 'Raleway', sans-serif;}
+body{height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: #233e6f;
+    background: -moz-linear-gradient(top, #233e6f 0%, #32619e 100%);
+    background: -webkit-linear-gradient(top, #233e6f 0%,#32619e 100%);
+    background: linear-gradient(to bottom, #233e6f 0%,#32619e 100%);}
+
+html{height: 100%; background-color:#32619e }
+
+.topline{background: repeating-linear-gradient(42deg,#4072CC,#4072CC 10px,#508EFF 10px,#508EFF 20px);}
 
 .logo{
+  margin-top: 10px;
   background-color: rgba(0, 0, 0, 0.20);
-  border-radius: 15px 15px 15px 15px;
-  -moz-border-radius: 15px 15px 15px 15px;
-  -webkit-border-radius: 15px 15px 15px 15px;
   transition: 0.1s linear;
   height: 100px;
-  padding: 5px;}
+  padding: 0px;}
+
+  hr {
+	max-width: 50px;
+	border-width: 3px;
+	border-color: white;}
 
 .logo:hover {background-color: #4D648D;}
 .jumbotron {background-color: #2D4571;color: white;background-image: url("images/chalkboard.jpg")}
 
 .frontborder:hover{
-border: 2px solid #4D648D;
-}
+border: 2px solid #4D648D;}
 
 .frontpic{width:150px; margin-right: 10px;}
 
