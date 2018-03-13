@@ -16,6 +16,15 @@ h1{margin-top: 10px;}
 .bannerimg{max-width:100px; height: 30px; margin-right: 10px;border-radius: 5px; margin-top: -5px;}
 .ctext{padding-left: 1px; color: gray;}
 
+.panel-heading .accordion-toggle:after {
+    content: url(images/up.png);
+    float: right;
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    content: url(images/down.png);
+}
+
+
 .tubeBakerloo{background-color: #B36305;}
 .tubeCentral{background-color: #E32017;}
 .tubeCircle{background-color: #FFD300;}
