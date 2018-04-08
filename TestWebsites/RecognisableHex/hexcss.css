@@ -1,5 +1,5 @@
 *{font-family: 'Roboto', serif;}
-.jumbotron {padding: 2rem 2rem;}
+.jumbotron {padding: 2rem 2rem; text-align: center; background:linear-gradient(40deg,#2096ff,#05ffa3);box-shadow: inset 0px -17px 15px -15px rgba(0,0,0,0.1);}
 
 a:link{color:#666;text-decoration:none;}
 a:visited{color:#000;text-decoration:none;}
