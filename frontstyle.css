@@ -1,7 +1,7 @@
-*{font-family: 'Raleway', sans-serif;}
+*{font-family: 'Roboto', serif;}
 body{height: 100%;
     margin: 0;
-    background: #ffffff;}
+    background: #efeeef;}
 
 .topline{background: repeating-linear-gradient(42deg,#4072CC,#4072CC 10px,#508EFF 10px,#508EFF 20px);}
 .jumbotron {padding: 2rem 2rem; text-align: center; background:linear-gradient(40deg,#2096ff,#05ffa3);box-shadow: inset 0px -17px 15px -15px rgba(0,0,0,0.1);}
