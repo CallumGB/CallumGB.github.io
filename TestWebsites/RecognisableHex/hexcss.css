@@ -24,7 +24,7 @@ h1{margin-top: 10px;}
     content: url(images/down.png);
 }
 
-
+/*StartColours*/
 .tubeBakerloo{background-color: #B36305;}
 .tubeCentral{background-color: #E32017;}
 .tubeCircle{background-color: #FFD300;}
@@ -124,13 +124,9 @@ h1{margin-top: 10px;}
 .Microgreen{background-color: #7CBB00;}
 
 .SpotifyGreen{background-color: #1ED760;}
-
 .Discordblue{background-color: #7289DA;}
-
 .TwitchPurple{background-color: #6441A4;}
-
 .FacebookBlue{background-color: #3b5998;}
-
 .YoutubeRed{background-color: #FF0000;}
 
 .RedditOrange{background-color: #FF5700;}
