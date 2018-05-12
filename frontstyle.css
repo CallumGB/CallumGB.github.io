@@ -6,6 +6,10 @@ body {
   margin: 0;
   background: #efeeef;
 }
+.color-change-2x{animation:color-change-2x 10s linear infinite alternate both}
+
+@keyframes color-change-2x{0%{background:#2096ff}100%{background:#05ffa3}}
+
 .topline {
   background: repeating-linear-gradient(42deg, #4072CC, #4072CC 10px, #508EFF 10px, #508EFF 20px);
 }
