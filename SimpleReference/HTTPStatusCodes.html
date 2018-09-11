@@ -35,8 +35,8 @@
     <table class="table table-sm table-striped">
       <thead>
         <tr>
-          <th style="width: 90px;">Informational</th>
-          <th></th>
+          <th style="width: 110px; background:#45cafc80;"> Informational</th>
+          <th style="background: linear-gradient(90deg, #45cafc80, #303f9f1a);"><span class="badge badge-pill badge-white">Request received, continuing process</span></th>
         </tr>
       </thead>
       <tbody>
@@ -55,13 +55,13 @@
       </tbody>
     </table>
   </div>
-
-  <div class="col-md-12">
+  <br>
+  <div class="col-md-6">
     <table class="table table-sm table-striped">
       <thead>
         <tr>
-          <th style="width: 90px;">Success</th>
-          <th></th>
+          <th style="width: 110px; background:#45cafc80;">Success</th>
+          <th style="background: linear-gradient(90deg, #45cafc80, #303f9f1a);"><span class="badge badge-pill badge-white">The action was successfully received, understood, and accepted</span></th>
         </tr>
       </thead>
       <tbody>
@@ -108,13 +108,13 @@
       </tbody>
     </table>
   </div>
-
-  <div class="col-md-12">
+  <br>
+  <div class="col-md-6">
     <table class="table table-sm table-striped">
       <thead>
         <tr>
-          <th style="width: 90px;">Redirection</th>
-          <th></th>
+          <th style="width: 110px; background:#45cafc80;">Redirection</th>
+          <th style="background: linear-gradient(90deg, #45cafc80, #303f9f1a);"><span class="badge badge-pill badge-white">Further action must be taken in order to complete the request</span></th>
         </tr>
       </thead>
       <tbody>
@@ -157,13 +157,13 @@
       </tbody>
     </table>
   </div>
-
+  <br>
   <div class="col-md-12">
     <table class="table table-sm table-striped">
       <thead>
         <tr>
-          <th style="width: 90px;">Client errors</th>
-          <th></th>
+          <th style="width: 110px; background:#45cafc80;">Client errors</th>
+          <th style="background: linear-gradient(90deg, #45cafc80, #303f9f1a);"><span class="badge badge-pill badge-white">The request contains bad syntax or cannot be fulfilled</span></th>
         </tr>
       </thead>
       <tbody>
@@ -243,7 +243,7 @@
         </tr>
         <tr>
           <th scope="row">418</th>
-          <td>I'm a teapot </td>
+          <td>I'm a teapot</td>
         </tr>
         <tr>
           <th scope="row">421</th>
@@ -279,24 +279,44 @@
           <td>Request Header Fields Too Large</td>
         </tr>
         <tr>
+          <th scope="row">444</th>
+          <td>No Response <span class="badge badge-pill badge-dark">Nginx web server</span></td>
+        </tr>
+        <tr>
           <th scope="row">451</th>
           <td>Unavailable For Legal Reasons</td>
         </tr>
         <tr>
+          <th scope="row">494</th>
+          <td>Request header too large <span class="badge badge-pill badge-dark">Nginx web server</span></td>
+        </tr>
+        <tr>
+          <th scope="row">495</th>
+          <td>SSL Certificate Error <span class="badge badge-pill badge-dark">Nginx web server</span></td>
+        </tr>
+        <tr>
+          <th scope="row">496</th>
+          <td>SSL Certificate Required <span class="badge badge-pill badge-dark">Nginx web server</span></td>
+        </tr>
+        <tr>
+          <th scope="row">497</th>
+          <td>HTTP Request Sent to HTTPS Port <span class="badge badge-pill badge-dark">Nginx web server</span></td>
+        </tr>
+        <tr>
           <th scope="row">499</th>
-          <td>Client Closed Request</td>
+          <td>Client Closed Request <span class="badge badge-pill badge-dark">Nginx web server</span></td>
         </tr>
 
       </tbody>
     </table>
   </div>
-
+  <br>
   <div class="col-md-12">
     <table class="table table-sm table-striped">
       <thead>
         <tr>
-          <th style="width: 90px;">Server Errors</th>
-          <th></th>
+          <th style="width: 110px; background:#45cafc80;">Server Errors</th>
+          <th style="background: linear-gradient(90deg, #45cafc80, #303f9f1a); "><span class="badge badge-pill badge-white">The server failed to fulfill an apparently valid request</span></th>
         </tr>
       </thead>
       <tbody>
@@ -344,13 +364,58 @@
           <th scope="row">511</th>
           <td>Network Authentication Required</td>
         </tr>
+
+
+
+        <tr>
+          <th scope="row">520</th>
+          <td>Unknown Error <span class="badge badge-pill badge-dark">Cloudflare</span></td>
+        </tr>
+        <tr>
+          <th scope="row">521</th>
+          <td>Web Server Is Down <span class="badge badge-pill badge-dark">Cloudflare</span></td>
+        </tr>
+        <tr>
+          <th scope="row">522</th>
+          <td>Connection Timed Out <span class="badge badge-pill badge-dark">Cloudflare</span></td>
+        </tr>
+        <tr>
+          <th scope="row">523</th>
+          <td>Origin Is Unreachable <span class="badge badge-pill badge-dark">Cloudflare</span></td>
+        </tr>
+        <tr>
+          <th scope="row">524</th>
+          <td>A Timeout Occurred <span class="badge badge-pill badge-dark">Cloudflare</span></td>
+        </tr>
+        <tr>
+          <th scope="row">525</th>
+          <td>SSL Handshake Failed <span class="badge badge-pill badge-dark">Cloudflare</span></td>
+        </tr>
+        <tr>
+          <th scope="row">527</th>
+          <td>Railgun Error <span class="badge badge-pill badge-dark">Cloudflare</span></td>
+        </tr>
+        <tr>
+          <th scope="row">530</th>
+          <td>Origin DNS Error <span class="badge badge-pill badge-dark">Cloudflare</span></td>
+        </tr>
       </tbody>
     </table>
   </div>
 
+
+<div class="col-md-12" style="margin-top: 20px;">
+<h2 style="text-align: center">See Also</h2>
+  <ul style="text-align: center">
+   <li><a  href="https://en.wikipedia.org/wiki/List_of_HTTP_status_codes" >List of HTTP status codes on Wikipedia</a></li>
+   <li><a  href="http://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml" >IANA official registry of HTTP status codes</a></li>
+   <li><a  href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status">HTTP response status codes on MDN Web Docs</a></li>
+  </ul>
 </div>
 
-<br />
+</div>
+
+<br>
 
     <br>
 
