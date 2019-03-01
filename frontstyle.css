@@ -5,6 +5,8 @@ body {
   height: 100%;
   margin: 0;
   background: #efeeef;
+  background-image: url("images/positive.png");
+  background-repeat: repeat;
 }
 .color-change-2x{animation:color-change-2x 10s linear infinite alternate both}
 
@@ -16,17 +18,17 @@ body {
 .jumbotron {
   padding: 2rem 2rem;
   text-align: center;
-  background: linear-gradient(40deg, #2096ff, #05ffa3);
+  background: linear-gradient(40deg, #2096ff, #3875c3);
   box-shadow: inset 0px -17px 15px -15px rgba(0, 0, 0, 0.1);
 }
 .list-group-item-action {
-  background: linear-gradient(40deg, #2096ff, #05ffa3);
+  background: linear-gradient(40deg, #2096ff, #3875c3);
   color: white;
   box-shadow: inset 0px -17px 15px -15px rgba(0, 0, 0, 0.1);
   transition: color 0.5s linear;
 }
 .list-group-item:focus, .list-group-item:hover {
-  color: #05ffa3;
+  color: #555;
 }
 .logo {
   margin-top: 10px;
@@ -147,3 +149,5 @@ a:active {
   -moz-border-radius: 15px 15px 15px 15px;
   -webkit-border-radius: 15px 15px 15px 15px;
 }
+
+.img-thumbnail{padding: 0px;}
