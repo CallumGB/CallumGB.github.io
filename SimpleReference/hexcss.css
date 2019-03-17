@@ -1,0 +1,145 @@
+*{font-family: 'Roboto', serif;}
+.jumbotron {padding: 2rem 2rem; text-align: center; background:linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);box-shadow: inset 0px -17px 15px -15px rgba(0,0,0,0.1);}
+
+a:link{color:#666;text-decoration:none;}
+a:visited{color:#000;text-decoration:none;}
+a:hover{color:#000;text-decoration:none;}
+a:active{color:#000;text-decoration:none;}
+
+h1{margin-top: 10px;}
+
+.coloursquare{width: 100px; height: 100px; color: rgba(255, 255, 255, 0.5); text-align: center; border-radius: 5px; transition: all 0.1s ease;}
+.coloursquare:before{color: white; text-align: center; border-radius: 5px;}
+.coloursquare:hover{color: rgba(255, 255, 255, 1); box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);}
+
+.bannerimg{max-width:100px; height: 30px; margin-right: 10px;border-radius: 5px; margin-top: -5px;}
+.ctext{padding-left: 1px; color: gray;}
+
+.panel-heading .accordion-toggle:after {
+    content: url(images/up.png);
+    float: right;
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    content: url(images/down.png);
+}
+
+/*StartColours*/
+.tubeBakerloo{background-color: #B36305;}
+.tubeCentral{background-color: #E32017;}
+.tubeCircle{background-color: #FFD300;}
+.tubeDistrict{background-color: #00782A;}
+.tubeDLR{background-color: #00A4A7;}
+.tubeHammersmithandCity{background-color: #F3A9BB;}
+.tubeJubilee{background-color: #A0A5A9;}
+.tubeMetropolitan{background-color: #9B0056;}
+.tubeNorthern{background-color: #000000;}
+.tubeOverground{background-color: #EE7C0E;}
+.tubePiccadilly{background-color: #003688;}
+.tubeTramlink{background-color: #84B817;}
+.tubeVictoria{background-color: #0098D4;}
+.tubeWaterlooandCity{background-color: #95CDBA;}
+.tubeElizabeth{background-color: #6950A1;}
+.tubebluetfl{background-color: #1C3F94;}
+
+.nycsubACE{background-color: #0039A6;}
+.nycsubBDFM{background-color: #FF6319;}
+.nycsubG{background-color: #6CBE45;}
+.nycsubJZ{background-color: #996633;}
+.nycsubL{background-color: #A7A9AC;}
+.nycsubNQR{background-color: #FCCC0A;}
+.nycsubS{background-color: #808183;}
+.nycsub123{background-color: #EE352E;}
+.nycsub456{background-color:#00933C ;}
+.nycsub7{background-color:#B933AD ;}
+
+.longisBabylonBranch{background-color:#00985F;}
+.longisCityTerminalZone{background-color:#4D5357;}
+.longisFarRockawayBranch{background-color:#6E3219;}
+.longisCityTerminalZone{background-color:#4D5357;}
+.longisFarRockawayBranch{background-color:#6E3219;}
+.longisHempsteadBranch{background-color:#CE8E00;}
+.longisLongBeachBranch{background-color:#FF6319;}
+.longisMontaukBranch{background-color:#006983;}
+.longisOysterBayBranch{background-color:#00AF3F;}
+.longisPortJeffersonBranch{background-color:#0039A6;}
+.longisPortWashingtonBranch{background-color:#C60C30;}
+.longisRonkonkomaBranch{background-color:#A626AA;}
+.longisWestHempsteadBranch{background-color:#00A1DE;}
+
+.tkgl{background-color:#ff9500;}
+.tkml{background-color:#f62e36;}
+.tkhl{background-color:#b5b5ac;}
+.tktl{background-color:#009bbf;}
+.tkcl{background-color:#00bb85;}
+.tkyl{background-color:#c1a470;}
+.tkfl{background-color:#9c5e31;}
+.tkh11{background-color:#8f76d6;}
+.tknl{background-color:#00ac9b;}
+
+.paris1{background-color:#ffcd00;}
+.paris2{background-color:#003ca6;}
+.paris3{background-color:#837902;}
+.paris3bis{background-color:#6ec4e8;}
+.paris4{background-color:#cf009e;}
+.paris5{background-color:#ff7e2e;}
+.paris6{background-color:#6eca97;}
+.paris7{background-color:#fa9aba;}
+.paris7bis{background-color:#6eca97;}
+.paris8{background-color:#e19bdf;}
+.paris9{background-color:#b6bd00;}
+.paris10{background-color:#c9910d;}
+.paris11{background-color:#704b1c;}
+.paris12{background-color:#007852;}
+.paris13{background-color:#6ec4e8;}
+.paris14{background-color:#62259d;}
+.paris15{background-color:#a90f32;}
+.paris16{background-color:#427b7b;}
+.paris17{background-color:#ec7cae;}
+.paris18{background-color:#95bf32;}
+
+.moscow1{background-color:#FF3818;}
+.moscow2{background-color:#4ABD61;}
+.moscow3{background-color:#0F7BC3;}
+.moscow4{background-color:#38CCF5;}
+.moscow5{background-color:#A35139;}
+.moscow6{background-color:#FF7D31;}
+.moscow7{background-color:#8043A2;}
+.moscow8a{background-color:#FFC846;}
+.moscow9{background-color:#9EA7A7;}
+.moscow10{background-color:#B1D451;}
+.moscow11A{background-color:#75D5D0;}
+.moscow12{background-color:#A8C7E7;}
+.moscow13{background-color:#2C87C5;}
+.moscow14{background-color:#DE0914;}
+
+.BerlinU1{background-color:#61993b;}
+.BerlinU2{background-color:#bf3922;}
+.BerlinU3{background-color:#00694c;}
+.BerlinU4{background-color:#f7b500;}
+.BerlinU5{background-color:#70452a;}
+.BerlinU55{background-color:#70452a;}
+.BerlinU6{background-color:#76689a;}
+.BerlinU7{background-color:#0089b6;}
+.BerlinU8{background-color:#004f7c;}
+.BerlinU9{background-color:#f67828;}
+
+.googlered{background-color: #db3236;}
+.googleblue{background-color: #4885ed;}
+.googleyellow{background-color: #f4c20d;}
+.googlegreen{background-color: #3cba54;}
+
+.Microred{background-color: #F65314;}
+.Microblue{background-color: #00A1F1;}
+.Microyellow{background-color: #FFBB00;}
+.Microgreen{background-color: #7CBB00;}
+
+.SpotifyGreen{background-color: #1ED760;}
+.Discordblue{background-color: #7289DA;}
+.TwitchPurple{background-color: #6441A4;}
+.FacebookBlue{background-color: #3b5998;}
+.YoutubeRed{background-color: #FF0000;}
+
+.RedditOrange{background-color: #FF5700;}
+.Redditdownvote{background-color: #9494FF;}
+.Redditupvote{background-color: #FF8b60;}
