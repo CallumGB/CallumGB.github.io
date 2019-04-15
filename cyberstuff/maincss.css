@@ -1,0 +1,16 @@
+
+.card-header-ipvoid{background-color: #045395}
+.card-header-virustotal{background-color: #3b61ff}
+.card-header-Paessler{background-color: #050f34}
+.card-header-MX{background-color: #eda03c}
+.card-header-Shodan{background-color: #262324}
+
+h5 img{max-height: 70px !important;}
+
+
+.btn-primary{margin-bottom: 5px;}
+
+.navbar{
+  background: #0F2027;
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
