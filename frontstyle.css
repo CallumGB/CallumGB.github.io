@@ -37,6 +37,9 @@ a {
   text-align: center;
   background: linear-gradient(40deg, #dcd8c0, #454138);
   box-shadow: inset 0px -17px 15px -15px rgba(0, 0, 0, 0.1);
+  background-image: url(pattern.jpg);
+  background-repeat: repeat;
+  background-size: 400px 400px;
 }
 
 .line{display:block; margin:25px}
