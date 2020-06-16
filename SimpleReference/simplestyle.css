@@ -1,0 +1,48 @@
+
+body{line-height: 1.1;}
+
+.card-body{padding: 1px;}
+
+.img-icon{height: 25px; margin-right: 7px;}
+.img-icon-large{height: 35px; margin-right: 7px;}
+
+.container table {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #1a1a1a;
+}
+
+.container table th {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.container table td {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.container table thead {
+    background-color:rgba(0,0,0,0.05);
+}
+
+.table-sm th,
+.table-sm td {
+    padding: 5px;
+}
+
+big {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.bg-darkish {
+    background-color: #1a1a1a;
+}
+
+.letter-span {
+    background-color: #1a1a1a;
+    padding: 5px;
+    color: #FFFFFF;
+    border-radius: 5px 25px 5px 5px;
+}

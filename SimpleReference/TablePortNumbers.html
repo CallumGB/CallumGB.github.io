@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="simplestyle.css" rel="stylesheet">
+    <!-- Custom Style Line to Force Left Aligned Tables -->
+    <style> .container table {text-align: left;} </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="index.html">Simple Reference</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <br>
+
+            <div class="card border-secondary mb-3">
+                <div class="card-header bg-darkish">
+                    <h5 class="mb-1 text-white">Port Ranges</h5>
+                </div>
+                <div class="card-body">
+                        <table class="table table-sm">
+                            <thead>
+                                <tr>
+                                    <th>Port Range Name</th>
+                                    <th>Number range</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td scope="row">System Ports</td>
+                                    <td>0 - 1023</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Registered ports</td>
+                                    <td>1024 - 49151</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Dynamic or Private ports</td>
+                                    <td>49152 - 65535</td>
+                                </tr>
+                                <tr>
+                            </tbody>
+                        </table>
+                </div>
+            </div>
+
+            <div class="card border-secondary mb-3">
+                <div class="card-header bg-darkish">
+                    <h5 class="mb-1 text-white">Popular Ports</h5>
+                </div>
+                <div class="card-body">
+                    <table class="table table-sm">
+                        <thead>
+                            <tr>
+                                <th>Port No.</th>
+                                <th>Description</th>
+                                <th>Protocol</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">20,21</th>
+                                <td>FTP - File Transfer Protocol</td>
+                                <td>TCP</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">22</th>
+                                <td>SSH - Secure Shell</td>
+                                <td>TCP</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">23</th>
+                                <td>Telnet</td>
+                                <td>TCP</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">25</th>
+                                <td>SMTP - Simple Mail Transfer Protocol</td>
+                                <td>UDP</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">53</th>
+                                <td>DNS - Domain Name System</td>
+                                <td>TCP, UDP</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">67,68</th>
+                                <td>DHCP - Dynamic Host Configuration Protocol</td>
+                                <td>UDP </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">80</th>
+                                <td>HTTP - Hypertext Transfer Protocol</td>
+                                <td>TCP</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">110</th>
+                                <td>POP3 - Post Office Protocol</td>
+                                <td>TCP</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">119</th>
+                                <td>NNTP - Network News Transfer Protocol</td>
+                                <td>TCP</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">123</th>
+                                <td>NTP - Network Time Protocol</td>
+                                <td>UDP</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">143</th>
+                                <td>IMAP - Internet Message Access Protocol</td>
+                                <td>TCP</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">161,162</th>
+                                <td>SNMP - Simple Network Management Protocol</td>
+                                <td>TCP, UDP</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">179</th>
+                                <td>BGP - Border Gateway Protocol</td>
+                                <td>TCP</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">194</th>
+                                <td>IRC - Internet Relay Chat</td>
+                                <td>TCP</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">443</th>
+                                <td>HTTPS - HTTP over Transport Layer Security (TLS)</td>
+                                <td>TCP, UDP</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">445</th>
+                                <td>SMB - Server Message Block</td>
+                                <td>TCP</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3306</th>
+                                <td>MySQL</td>
+                                <td>TCP, UDP</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        <br>
+        <div class="card border-secondary mb-3">
+            <div class="card-header bg-darkish">
+                <h5 class="mb-1 text-white">Video Game Port Examples</h5>
+            </div>
+            <div class="card-body">
+                <table class="table table-sm">
+                    <thead>
+                        <tr>
+                            <th>Port No.</th>
+                            <th>Description</th>
+                            <th>Protocol</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">666</th>
+                            <td>Doom (1993)</td>
+                            <td>TCP, UDP</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2303</th>
+                            <td>ArmA</td>
+                            <td>UDP</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2303</th>
+                            <td>Halo: Combat Evolved</td>
+                            <td>UDP</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4000</th>
+                            <td>Diablo II</td>
+                            <td>TCP, UDP</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">49001–49002, 49124</th>
+                            <td>Far Cry (2004)</td>
+                            <td>TCP, UDP</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">9000-9004</th>
+                            <td>Far Cry 2 (2008)</td>
+                            <td>UDP</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">9000, 10009</th>
+                            <td>Far Cry 3 (2012)</td>
+                            <td>UDP</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">80, 443, 9000, 21120</th>
+                            <td>Far Cry 4 (2014)</td>
+                            <td>TCP, UDP</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">443, 9000, 9103, 12000, 11110, 11115</th>
+                            <td>Far Cry 5 (2018)</td>
+                            <td>TCP, UDP</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">5000–5500</th>
+                            <td>League of Legends</td>
+                            <td>UDP</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">34197</th>
+                            <td>Factorio</td>
+                            <td>UDP</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="simplestyle.css" rel="stylesheet">
+    <!-- Custom Style Line to Force Left Aligned Tables -->
+    <style> .container table {text-align: left;} .card-body{padding: 10px;} </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="index.html">Simple Reference</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+      <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+
+    <div class="container">
+        
+        <br>
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>List of HTTP Status Codes</h2>
+            </div>
+        </div>
+
+        <div class="row">
+        
+        <div class="col-lg-12">
+            <br>
+            <div class="card border-secondary mb-3">
+                <div class="card-header bg-darkish">
+                    <h5 class="mb-1 text-white">Informational - <small>Request received, continuing process</small></h5>
+                </div>
+                <div class="card-body">
+                    <table class="table table-sm">
+                        <tbody>
+                          <tr>
+                            <th scope="row">100</th>
+                            <td>Continue</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">101</th>
+                            <td>Switching Protocols</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">102</th>
+                            <td>Processing</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="card border-secondary mb-3">
+                <div class="card-header bg-darkish">
+                    <h5 class="mb-1 text-white">Success - <small>The action was successfully received, understood, and accepted</small></h5>
+                </div>
+                <div class="card-body">
+                    <table class="table table-sm">
+                        <tbody>
+                          <tr>
+                            <th scope="row">200</th>
+                            <td>OK</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">201</th>
+                            <td>Created</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">202</th>
+                            <td>Accepted</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">203</th>
+                            <td>Non-Authoritative Information</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">204</th>
+                            <td>No Content</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">205</th>
+                            <td>Reset Content</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">206</th>
+                            <td>Partial Content</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">207</th>
+                            <td>Multi-Status</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">208</th>
+                            <td>Already Reported</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">226</th>
+                            <td>IM Used</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="card border-secondary mb-3">
+                <div class="card-header bg-darkish">
+                    <h5 class="mb-1 text-white">Redirection - <small>Further action must be taken in order to complete the request</small></h5>
+                </div>
+                <div class="card-body">
+                    <table class="table table-sm">
+                        <tbody>
+                          <tr>
+                            <th scope="row">300</th>
+                            <td>Continue</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">301</th>
+                            <td>Moved Permanently</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">302</th>
+                            <td>Found</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">303</th>
+                            <td>See Other</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">304</th>
+                            <td>Not Modified</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">305</th>
+                            <td>Use Proxy</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">306</th>
+                            <td>Switch Proxy</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">307</th>
+                            <td>Temporary Redirect</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">308</th>
+                            <td>Permanent Redirect</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="card border-secondary mb-3">
+                <div class="card-header bg-darkish">
+                    <h5 class="mb-1 text-white">Client errors - <small>The request contains bad syntax or cannot be fulfilled</small></h5>
+                </div>
+                <div class="card-body">
+                    <table class="table table-sm">
+                        <tbody>
+                          <tr>
+                            <th scope="row">400</th>
+                            <td>Bad Request</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">401</th>
+                            <td>Unauthorized</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">402</th>
+                            <td>Payment Required</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">403</th>
+                            <td>Forbidden</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">404</th>
+                            <td>Not Found</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">405</th>
+                            <td>Method Not Allowed</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">406</th>
+                            <td>Not Acceptable</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">407</th>
+                            <td>Proxy Authentication Required</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">408</th>
+                            <td>Request Timeout</td>
+                          </tr>
+            
+                          <tr>
+                            <th scope="row">409</th>
+                            <td>Conflict</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">410</th>
+                            <td>Gone</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">411</th>
+                            <td>Length Required</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">412</th>
+                            <td>Precondition Failed</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">413</th>
+                            <td>Payload Too Large</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">414</th>
+                            <td>URI Too Long</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">415</th>
+                            <td>Unsupported Media Type</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">416</th>
+                            <td>Range Not Satisfiable</td>
+                          </tr>
+            
+                          <tr>
+                            <th scope="row">417</th>
+                            <td>Expectation Failed</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">418</th>
+                            <td>I'm a teapot</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">421</th>
+                            <td>Misdirected Request</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">422</th>
+                            <td>Unprocessable Entity</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">423</th>
+                            <td>Locked</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">424</th>
+                            <td>Failed Dependency</td>
+                          </tr>
+            
+                          <tr>
+                            <th scope="row">426</th>
+                            <td>Upgrade Required</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">428</th>
+                            <td>Precondition Required</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">429</th>
+                            <td>Too Many Requests</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">431</th>
+                            <td>Request Header Fields Too Large</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">444</th>
+                            <td>No Response <span class="badge badge-pill badge-dark">Nginx web server</span></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">451</th>
+                            <td>Unavailable For Legal Reasons</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">494</th>
+                            <td>Request header too large <span class="badge badge-pill badge-dark">Nginx web server</span></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">495</th>
+                            <td>SSL Certificate Error <span class="badge badge-pill badge-dark">Nginx web server</span></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">496</th>
+                            <td>SSL Certificate Required <span class="badge badge-pill badge-dark">Nginx web server</span></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">497</th>
+                            <td>HTTP Request Sent to HTTPS Port <span class="badge badge-pill badge-dark">Nginx web server</span>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">499</th>
+                            <td>Client Closed Request <span class="badge badge-pill badge-dark">Nginx web server</span></td>
+                          </tr>
+            
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="card border-secondary mb-3">
+                <div class="card-header bg-darkish">
+                    <h5 class="mb-1 text-white">Server Errors - <small> Server failed to fulfill an apparently valid request</small></h5>
+                </div>
+                <div class="card-body">
+                    <table class="table table-sm">
+                        <tbody>
+                          <tr>
+                            <th scope="row">500</th>
+                            <td>Internal Server Error</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">501</th>
+                            <td>Not Implemented</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">502</th>
+                            <td>Bad Gateway</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">503</th>
+                            <td>Service Unavailable</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">504</th>
+                            <td>Gateway Timeout</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">505</th>
+                            <td>HTTP Version Not Supported</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">506</th>
+                            <td>Variant Also Negotiates</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">507</th>
+                            <td>Insufficient Storage</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">508</th>
+                            <td>Loop Detected</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">510</th>
+                            <td>Not Extended</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">511</th>
+                            <td>Network Authentication Required</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">520</th>
+                            <td>Unknown Error <span class="badge badge-pill badge-dark">Cloudflare</span></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">521</th>
+                            <td>Web Server Is Down <span class="badge badge-pill badge-dark">Cloudflare</span></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">522</th>
+                            <td>Connection Timed Out <span class="badge badge-pill badge-dark">Cloudflare</span></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">523</th>
+                            <td>Origin Is Unreachable <span class="badge badge-pill badge-dark">Cloudflare</span></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">524</th>
+                            <td>A Timeout Occurred <span class="badge badge-pill badge-dark">Cloudflare</span></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">525</th>
+                            <td>SSL Handshake Failed <span class="badge badge-pill badge-dark">Cloudflare</span></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">527</th>
+                            <td>Railgun Error <span class="badge badge-pill badge-dark">Cloudflare</span></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">530</th>
+                            <td>Origin DNS Error <span class="badge badge-pill badge-dark">Cloudflare</span></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
+    </div>
+    </div>
+</body>
+
+</html>

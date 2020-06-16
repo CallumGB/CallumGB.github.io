@@ -1,145 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <title>Simple Reference - Useful Links</title>
-
-    <!-- Bootstrap CSS CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
-        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <!-- Our Custom CSS -->
-    <link rel="stylesheet" href="style5.css">
-    <!-- Scrollbar Custom CSS -->
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
-    <!-- Font Awesome JS -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="simplestyle.css" rel="stylesheet">
+    <!-- Custom Style Line to Force Left Aligned Tables -->
+    <style> .container table {text-align: left;}</style>
 </head>
 
 <body>
-
-    <div class="wrapper">
-        <!-- Sidebar Holder -->
-        <nav id="sidebar">
-
-            <div id="dismiss">
-                <i class="fas fa-arrow-left"></i>
-            </div>
-            <div class="sidebar-header">
-                <h3>Simple Reference</h3>
-            </div>
-
-            <ul class="list-unstyled components">
-                <p>Simple Reference</p>
-                <li><a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a></li>
-                <li><a class="nav-link" href="ports.html"><i class="far fa-window-maximize"></i> Port Numbers</a></li>
-                <li><a class="nav-link" href="HTTPStatusCodes.html"><i class="fab fa-html5"></i> HTTP Status Codes</a></li>
-                <li><a class="nav-link" href="filesignatures.html"><i class="fas fa-code"></i> File Signatures</a></li>
-                <li><a href="useful.html"><i class="fas fa-book"></i> Useful Links</a></li>
-            </ul>
-
-            <ul class="list-unstyled CTAs">
-                <li>
-                    <a href="../" class="article">Back to Site Root</a>
-                </li>
-            </ul>
-        </nav>
-
-        <!-- Page Content Holder -->
-        <div id="content">
-
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-
-                    <button type="button" id="sidebarCollapse" class="btn btn-info">
-                        <i class="fas fa-align-left"></i>
-                        <span>Menu</span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="nav navbar-nav ml-auto">
-                            <!--<li class="nav-item active">
-                              <a class="nav-link" href="#">Page</a>
-                          </li>
-                          <li class="nav-item">
-                              <a class="nav-link" href="#">Page</a>
-                          </li>
-                          <li class="nav-item">
-                              <a class="nav-link" href="#">Page</a>
-                          </li>
-                          <li class="nav-item">
-                              <a class="nav-link" href="#">Page</a>
-                          </li>-->
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-
-            <h2>Useful Links</h2>
-            <p>
-                All links open in a new tab.
-            </p>
-            <ul class="nav flex-column">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="index.html">Simple Reference</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="https://www.wireshark.org/docs/dfref/" target="_blank"><i
-                            class="fas fa-network-wired"></i> Wireshark Display Filters</a>
-                    <a class="nav-link" href="https://www.tcpdump.org/manpages/tcpdump.1.html" target="_blank"><i
-                            class="fas fa-search"></i> Manpage of TCPDUMP - User Commands</a>
-                    <a class="nav-link" href="https://developer.mozilla.org/en-US/" target="_blank"><i
-                            class="fas fa-firefox"></i> MDN Web Docs - Mozilla</a>
-                    <a class="nav-link" href="http://flint.cs.yale.edu/cs421/papers/x86-asm/asm.html" target="_blank"><i
-                                class="fas fa-firefox"></i> x86 Assembly Guide</a>
-
-                            
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
             </ul>
         </div>
+    </nav>
+
+    <div class="container">
+        
+        <br>
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Useful Documentation Links</h2>
+            </div>
+        </div>
+
+        <div class="row">
+        
+        <div class="col-lg-12">
+            <br>
+            <div class="card border-secondary mb-3">
+                <div class="card-header bg-darkish">
+                    <h5 class="mb-1 text-white">Useful Documentation Links</small></h5>
+                </div>
+                <div class="card-body">
+                
+                    <a class="nav-link" href="https://www.wireshark.org/docs/dfref/" target="_blank">Wireshark Display Filters - wireshark.org</a>
+                    <a class="nav-link" href="https://www.tcpdump.org/manpages/tcpdump.1.html" target="_blank">Manpage of TCPDUMP - tcpdump.org</a>
+                    <a class="nav-link" href="https://developer.mozilla.org/en-US/" target="_blank">MDN Web Docs - Mozilla - developer.mozilla.org</a>
+                    <a class="nav-link" href="http://flint.cs.yale.edu/cs421/papers/x86-asm/asm.html" target="_blank">x86 Assembly Guide - yale.edu</a>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
     </div>
-
-    <div class="overlay"></div>
-
-    <!-- jQuery CDN - Slim version (=without AJAX) -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <!-- Popper.JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
-        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous">
-    </script>
-    <!-- Bootstrap JS -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
-        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous">
-    </script>
-    <!-- jQuery Custom Scroller CDN -->
-    <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js">
-    </script>
-
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $("#sidebar").mCustomScrollbar({
-                theme: "minimal"
-            });
-
-            $('#dismiss, .overlay').on('click', function () {
-                $('#sidebar').removeClass('active');
-                $('.overlay').removeClass('active');
-            });
-
-            $('#sidebarCollapse').on('click', function () {
-                $('#sidebar').addClass('active');
-                $('.overlay').addClass('active');
-                $('.collapse.in').toggleClass('in');
-                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
-            });
-        });
-    </script>
+    </div>
 </body>
 
 </html>
+>

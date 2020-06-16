@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="simplestyle.css" rel="stylesheet">
+    <!-- Custom Style Line to Force Left Aligned Tables -->
+    <style> .container table {text-align: left;}</style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="index.html">Simple Reference</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+    <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+    <div class="container">
+        
+        <br>
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>List of File Signatures</h2>
+            </div>
+        </div>
+
+        <div class="row">
+        
+        <div class="col-lg-12">
+            <br>
+            <div class="card border-secondary mb-3">
+                <div class="card-header bg-darkish">
+                    <h5 class="mb-1 text-white">File Signatures</small></h5>
+                </div>
+                <div class="card-body">
+                  <table class="table table-sm">
+                    <thead>
+                      <tr>
+                        <th>Hex Signature</th>
+                        <th>ASCII Signature</th>
+                        <th>Offset</th>
+                        <th>File Extension</th>
+                        <th>Description</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">37 7A BC AF 27 1C</th>
+                        <th scope="row">7z¼¯'</th>
+                        <td>0</td>
+                        <td>7z</td>
+                        <td>7-Zip File Format</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">53 50 30 31</th>
+                        <th scope="row">SP01</th>
+                        <td>0</td>
+                        <td>bin</td>
+                        <td>Amazon Kindle Update Package</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">42 4D</th>
+                        <th scope="row">BM</th>
+                        <td>0</td>
+                        <td>bmp<br>dib</td>
+                        <td>BMP bitmap image file format</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">42 5A 68</th>
+                        <th scope="row">BZh</th>
+                        <td>0</td>
+                        <td>bz2</td>
+                        <td>Compressed file using Bzip2 algorithm</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4D 53 43 46</th>
+                        <th scope="row">MSCF</th>
+                        <td>0</td>
+                        <td>cab</td>
+                        <td>Microsoft Cabinet file, an archive-file format for Microsoft Windows</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">CA FE BA BE</th>
+                        <th scope="row">Êþº¾</th>
+                        <td>0</td>
+                        <td>class</td>
+                        <td>Java class file, Mach-O Fat Binary</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">43 72 32 34</th>
+                        <th scope="row">Cr24</th>
+                        <td>0</td>
+                        <td>crx</td>
+                        <td>Google Chrome extension or packaged app</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">50 4D 4F 43 43 4D 4F 43</th>
+                        <th scope="row">PMOCCMOC</th>
+                        <td>0</td>
+                        <td>dat</td>
+                        <td>Windows Files And Settings Transfer Repository</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">1F 8B 08 00</th>
+                        <th scope="row">‹�</th>
+                        <td>1</td>
+                        <td>dat</td>
+                        <td>Minecraft Level Data File</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">21 3C 61 72 63 68 3E</th>
+                        <th scope="row">!&lt;arch&gt;.</th>
+                        <td>0</td>
+                        <td>deb</td>
+                        <td>Linux deb file</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">78 01 73 0D 62 62 60</th>
+                        <th scope="row">x.s.bb`</th>
+                        <td>0</td>
+                        <td>dmg</td>
+                        <td>Apple Disk Image file</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">D0 CF 11 E0 A1 B1 1A E1</th>
+                        <th scope="row"></th>
+                        <td>0</td>
+                        <td>doc<br>xls<br>ppt<br>msg</td>
+                        <td>Compound File Binary Format</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">76 2F 31 01</th>
+                        <th scope="row">v/1.</th>
+                        <td>0</td>
+                        <td>exr</td>
+                        <td>OpenEXR image</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">66 4C 61 43</th>
+                        <th scope="row">fLaC</th>
+                        <td>0</td>
+                        <td>flac</td>
+                        <td>Free Lossless Audio Codec</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">46 4C 49 46</th>
+                        <th scope="row">FLIF</th>
+                        <td>0</td>
+                        <td>flif</td>
+                        <td>Free Lossless Image Format</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">47 49 46 38 37 61<br>47 49 46 38 39 61</th>
+                        <th scope="row">GIF87a<br>GIF89a</th>
+                        <td>0</td>
+                        <td>gif</td>
+                        <td>Graphics Interchange Format</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">1F 8B</th>
+                        <th scope="row">..</th>
+                        <td>0</td>
+                        <td>gz<br>tar.gz</td>
+                        <td>GZIP</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">00 00 01 00</th>
+                        <th scope="row">....</th>
+                        <td>0</td>
+                        <td>ico</td>
+                        <td>Windows icon file</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">43 44 30 30 31</th>
+                        <th scope="row">CD001</th>
+                        <td>0x8001<br>0x8801<br>0x9001</td>
+                        <td>iso</td>
+                        <td>ISO9660 CD/DVD image file</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">FF D8 FF DB<br>FF D8 FF E0 ?? ?? 4A 46 49 46 00 01<br>FF D8 FF E1 ?? ?? 45 78 69 66 00
+                          00</th>
+                        <th scope="row">ÿØÿÛ<br>ÿØÿà ..JF IF..<br>ÿØÿá ..Ex if..</th>
+                        <td>0</td>
+                        <td>jpg<br>jpeg</td>
+                        <td>JPEG,JFIF or Exif file format</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4C 5A 49 50</th>
+                        <th scope="row">LZIP</th>
+                        <td>0</td>
+                        <td>lz</td>
+                        <td>lzip compressed files</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4D 54 68 64</th>
+                        <th scope="row">MThd</th>
+                        <td>0</td>
+                        <td>mid<br>midi</td>
+                        <td>MIDI sound file</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">49 44 33</th>
+                        <th scope="row">ID3</th>
+                        <td>0</td>
+                        <td>mp3</td>
+                        <td>MPEG-1 Audio Layer 3 (MP3) audio file</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">00 00 01 BA<br>47<br>00 00 01 B3</th>
+                        <th scope="row">....<br>G<br>....</th>
+                        <td>0</td>
+                        <td>mpg<br>mpeg</td>
+                        <td>DVD Video Movie File or DVD MPEG2</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4E 45 53 1A</th>
+                        <th scope="row">NES</th>
+                        <td>0</td>
+                        <td>nes</td>
+                        <td>Nintendo Entertainment System ROM file</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4F 67 67 53</th>
+                        <th scope="row">OggS</th>
+                        <td>0</td>
+                        <td>ogg<br>oga<br>ogv</td>
+                        <td>Ogg media container format</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">25 50 44 46</th>
+                        <th scope="row">%PDF</th>
+                        <td>0</td>
+                        <td>pdf</td>
+                        <td>PDF document</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">89 50 4E 47 0D 0A 1A 0A</th>
+                        <th scope="row">.PNG....</th>
+                        <td>0</td>
+                        <td>png</td>
+                        <td>Portable Network Graphics image format</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">25 21 50 53</th>
+                        <th scope="row">%!PS</th>
+                        <td>0</td>
+                        <td>ps</td>
+                        <td>PostScript document</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">38 42 50 53</th>
+                        <th scope="row">8BPS</th>
+                        <td>0</td>
+                        <td>psd</td>
+                        <td>Adobe Photoshop Document file</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">52 61 72 21 1A 07 00</th>
+                        <th scope="row">Rar!...</th>
+                        <td>0</td>
+                        <td>rar</td>
+                        <td>RAR archive version 1.50 +</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">52 61 72 21 1A 07 01 00</th>
+                        <th scope="row">Rar!....</th>
+                        <td>0</td>
+                        <td>rar</td>
+                        <td>RAR archive version 5.0 +</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">7B 5C 72 74 66 31</th>
+                        <th scope="row">{\rtf1</th>
+                        <td>0</td>
+                        <td>rtf</td>
+                        <td>Rich Text Format</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">43 57 53<br>46 57 53</th>
+                        <th scope="row">CWS<br>FWS</th>
+                        <td>0</td>
+                        <td>swf</td>
+                        <td>flash .swf file</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">75 73 74 61 72 00 30 30<br>75 73 74 61 72 20 20 00</th>
+                        <th scope="row">ustar.00<br>ustar .</th>
+                        <td>0x101</td>
+                        <td>tar</td>
+                        <td>tar archive</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">49 49 2A 00<sup> (little endian)</sup><br>4D 4D 00 2A<sup> (big endian)</sup></th>
+                        <th scope="row">II*.<br>MM.*</th>
+                        <td>0</td>
+                        <td>tif<br>tiff</td>
+                        <td>Tagged Image File Format</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">52 49 46 46 ?? ?? ?? ?? 57 45 42 50</th>
+                        <th scope="row">RIFF....WEBP</th>
+                        <td>0</td>
+                        <td>webp</td>
+                        <td>WebP image file</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">77 4F 46 46</th>
+                        <th scope="row">wOFF</th>
+                        <td>0</td>
+                        <td>woff</td>
+                        <td>WOFF File Format 1.0</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">77 4F 46 32</th>
+                        <th scope="row">wOF2</th>
+                        <td>0</td>
+                        <td>woff2</td>
+                        <td>WOFF File Format 2.0</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3c 3f 78 6d 6c 20</th>
+                        <th scope="row">&lt;?xml</th>
+                        <td>0</td>
+                        <td>XML</td>
+                        <td>eXtensible Markup Language</td>
+                      </tr>
+        
+                    </tbody>
+                  </table>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
+    </div>
+    </div>
+</body>
+
+</html>
