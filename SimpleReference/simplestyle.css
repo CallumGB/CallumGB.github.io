@@ -3,8 +3,22 @@ body{line-height: 1.1;}
 
 .card-body{padding: 1px;}
 
+.nav-link:hover{
+    background-color: #EEE;
+	box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-radius: 10px;
+}
+
+.img-ChtSh{
+	border-bottom-left-radius: 2;
+	border-bottom-right-radius: 0;
+	border-color: rgba(223,225,229,0);
+	box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+	margin-bottom: 15px;
+}
+
 .img-icon{height: 25px; margin-right: 7px;}
-.img-icon-large{height: 35px; margin-right: 7px;}
+.img-icon-large{height: 25px; margin-right: 10px; margin-bottom: 5px;}
 
 .container table {
     font-size: 1.2rem;
