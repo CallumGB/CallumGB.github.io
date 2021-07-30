@@ -1,9 +1,15 @@
+.card-header-gen{
+  background-image: url(ep_naturalwhite.png);
+  border:#203A43 1px solid;
+  color:#203A43;
+}
 
-.card-header-ipvoid{background-color: #045395}
-.card-header-virustotal{background-color: #3b61ff}
-.card-header-Paessler{background-color: #050f34}
-.card-header-MX{background-color: #eda03c}
-.card-header-Shodan{background-color: #262324}
+.card-header-gen:hover{
+  background-image: url(ep_naturalblack.png);
+  border:#203A43 1px solid;
+  color:#ffffff;
+}
+
 
 h5 img{max-height: 70px !important;}
 
@@ -14,3 +20,8 @@ h5 img{max-height: 70px !important;}
   background: #0F2027;
   background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
   background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+}
+
+.card{height: 300px;}
+
+body{background-image: url(ep_naturalwhite.png);}

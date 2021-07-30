@@ -3,10 +3,12 @@
 }
 
 h1 {
+  color: #dcd8c0;
   font-weight: normal;
+  font-size: 35pt;
   text-transform: uppercase;
   letter-spacing: 0.5rem;
-  text-shadow: 0.3rem 0.3rem 0 #bab5a1;
+  text-shadow: 0.3rem 0.3rem 0 #1c1915;
 }
 
 body {
@@ -42,9 +44,7 @@ a {
 }
 
 .line{display:block; margin:25px}
-.line h1{text-align:center; border-bottom:1px solid white; position:relative;}
-.line h1 span { background-color: #dcd8c0; position: relative; top: 22px; padding: 0 10px;}
-.line h1 span{border-left: #454138 10px solid; border-right: #454138 10px solid;} 
+.line h1 span {position: relative; top: 22px; padding: 0 20px;}
 
 hr {
   max-width: 50px;
@@ -55,8 +55,18 @@ hr {
 .frontpic {
   border-radius: 5px;
   margin-right: 20px;
-  max-height: 200px;
+  max-height: 150px;
 }
+
+@media only screen and (max-width: 1000px) {
+  .frontpic {
+    max-height: 100px;
+  }}
+
+@media only screen and (max-width: 600px) {
+  .frontpic {
+    max-height: 25px;
+  }}
 
 .frontgal{
   margin: 10px;
